@@ -1,0 +1,114 @@
+html {
+    font-size: 15px;
+   }
+   body {
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .card {
+     color:white;
+     width:300px ;
+     height:1115px;
+     border-radius:15px;
+     font-family: 'Lexend Deca', sans-serif;
+     overflow: hidden;
+     margin-left: 0vw;
+   }
+   .sedan-box {
+     background-color:hsl(31, 77%, 52%);
+     padding:10px;
+     width:100%;
+     height:350px;
+   }
+   .suvs-box {
+     background-color:hsl(184, 100%, 22%);
+     padding:10px;
+     width:100%;
+     height:350px;
+   }
+   .luxury-box {
+     background-color:hsl(179, 100%, 13%);
+     padding:10px;
+     width:100%;
+     height:415px;
+   }
+   .head {
+     font-family: 'Big Shoulders Display', sans-serif;
+     margin-left:13px;
+     font-size:2rem;
+   }
+   .img {
+     padding:10px;
+   }
+   .para {
+     padding:13px;
+       margin-right:10px;
+   }
+   button {
+     font-family: 'Lexend Deca', sans-serif;
+     border:0px;
+     border-radius:50px;
+     width:200px;
+     height:50px;
+     margin-left:12px;
+   }
+   .btn1 {
+     color:hsl(31, 77%, 52%);
+   }
+   .btn1:hover {
+     border:2px solid white;
+     background-color:hsl(31, 77%, 52%);
+     color:hsl(0, 00%, 100%);
+     cursor: pointer;
+   }
+   .btn2 {
+     color:hsl(184, 100%, 22%);
+   }
+   .btn2:hover {
+     cursor: pointer;
+     border:2px solid white;
+     background-color:hsl(184, 100%, 22%);
+     color:hsl(0, 00%, 100%);
+   }
+   .btn3 {
+     color:hsl(179, 100%, 13%);
+   }
+   .btn3:hover {
+     cursor: pointer;
+     border:2px solid white;
+     background-color:hsl(179, 100%, 13%);
+     color:hsl(0, 00%, 100%);
+   }
+   
+   @media (min-width:920px) {
+     html {
+       padding:20px;
+     }
+     body {
+   
+     }
+     .card {
+       display:flex;
+       height:400px;
+       width:900px;
+     }
+     .suvs-box {
+       height:450px;
+       text-align:center;
+       width:300px;
+     }
+     .sedan-box {
+       width:300px;
+       height:450px;
+       text-align:center;
+     }
+     .luxury-box {
+       width:300px;
+       height:450px;
+       text-align:center;
+     } 
+   
+   }
